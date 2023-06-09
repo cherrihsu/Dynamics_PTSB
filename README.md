@@ -7,3 +7,4 @@ Programs and datasets for the work "Efficient Machine-learning-Aided Dynamics fo
 5. The _progdynstarterHP_sampingOnly_ is used in KRR trajectories instead of the original _progdynstarterHP_ (AIMD). The codes have to be modified corresponding to the conditions of the machine.
 6. The conditions for the KRR trajectory calculations can be modified in _KRR_ML_Predicting_Verlet_multimodel.py_
 7. The conditions for Progdyn can be found and modified in _progdyn.conf_. This would affect how the initial geometry, velocity are sampled.
+8. Due to size limit, some files are split into multiple files with possible suffixes a-f. The KRR model are trained with all split files with the same prefix combined.
